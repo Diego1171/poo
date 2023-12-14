@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red; /* Color de fondo rojo */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Para que el botón ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centrar el botón horizontalmente */
+}
+
+.inicio-section {
+    height: 100vh;
+    /* Puedes agregar estilos para la sección de inicio si es necesario */
+}
+.square {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar contenido horizontalmente */
+}
+
+
+.square img {
+    max-width: 15%;
+    height: auto;
+    margin: 15px auto; /* Centrar contenido verticalmente y ajustar margen superior */
+}
+

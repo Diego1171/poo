@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Registro de Computadora</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../proyecto/css/equipo.css"> <!-- Asegúrate de cambiar "styles.css" al nombre de tu archivo de estilo CSS -->
+</head>
+<body>
+    
+
+<div class="container">
+    <h2 class="mt-4 mb-4">Registro de Computadora</h2>
+
+    <form method="POST" action="../obequipo.php" id="registroForm">
+        <div class="form-group">
+            <label for="nombre">Nombres:</label>
+            <input type="text" name="Nombre" class="form-control" id="nombre" placeholder="Ingrese sus nombres" required>
+        </div>
+        <div class="form-group">
+            <label for="apellido">Apellidos:</label>
+            <input type="text" name="Apellido" class="form-control" id="apellido" placeholder="Ingrese sus apellidos" required>
+        </div>
+        <div class="form-group">
+            <label for="documento">Documento:</label>
+            <input type="text" name="Documento" class="form-control" id="documento" placeholder="Ingrese su número de documento" required>
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" name="Correo" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required>
+        </div>
+        <div class="form-group">
+            <label for="marca">Marca:</label>
+            <input type="text" name="Marca" class="form-control" id="marca" placeholder="Ingrese la marca de la computadora" required>
+        </div>
+        <div class="form-group">
+            <label for="descripcion">Descripción:</label>
+            <textarea name="Descripcion" class="form-control" id="descripcion" rows="3" placeholder="Ingrese una descripción de la computadora" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar Computadora</button>
+    </form>
+
+    <!-- Contenedor para el código QR -->
+    <div id="codigoQRContainer" class="mt-4"></div>
+
+    <!-- Botón para descargar el código QR -->
+    <button id="descargarQR" class="btn btn-secondary mt-2">Descargar QR</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+<script src="../js/qr.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    font-family: Arial, sans-serif;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #left-side {
+    color: white;
+  }
+  
+  #left-side h1 {
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #left-side h1 img {
+    width: 50px; /* Ajusta el tamaño del logo en el título según tus necesidades */
+    height: 50px; /* Ajusta el tamaño del logo en el título según tus necesidades */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  
+  #right-side {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #right-side h2 {
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .button-container button img {
+    width: 50px; /* Ajusta el tamaño del logo en los botones según tus necesidades */
+    height: 50px; /* Ajusta el tamaño del logo en los botones según tus necesidades */
+  }
+  
+  .button-container button span {
+    margin-top: 5px;
+  }
+  .logo {
+    width: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+  }
+  

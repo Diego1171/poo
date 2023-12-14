@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 80, 80); /* Cambia el color de fondo a rojo */
+}
+
+.dashboard-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #173de3;
+    color: #fff;
+    padding: 10px;
+}
+
+.dashboard-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f50800; /* Color rojo inicial */
+    color: #fff;
+    border: 2px solid #000; /* Borde negro */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición para suavizar el cambio de color */
+}
+
+.dashboard-button:hover {
+    background-color: #5bc0de; /* Cambio a color azul al pasar el ratón */
+}
+
+.dashboard-button:active {
+    background-color: #428bca; /* Cambio a un tono más oscuro de azul al hacer clic */
+}
+
+.dashboard-button img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.logout-container {
+    margin-top: 50px; /* Ajusta la distancia desde arriba para el botón de cerrar sesión */
+}
+
+.logout-button {
+    background-color: #d9534f;
+    color: #fff;
+    border: 2px solid #000; /* Borde negro */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición para suavizar el cambio de color */
+}
+
+.logout-button:hover {
+    background-color: #5bc0de; /* Cambio a color azul al pasar el ratón */
+}
+
+.logout-button:active {
+    background-color: #428bca; /* Cambio a un tono más oscuro de azul al hacer clic */
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

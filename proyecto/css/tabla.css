@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1; /* Fondo gris */
+    margin: 0;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #000; /* Borde negro */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3097dc; /* Azul */
+    color: #fff;
+}
+
+tbody tr:hover {
+    background-color: #e74c3c; /* Rojo */
+    color: #fff;
+}
+
+/* Estilos de los botones de DataTables */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #000; /* Borde negro para el campo de búsqueda */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #000; /* Borde negro para el menú desplegable de "Mostrar entradas" */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #3498db; /* Azul */
+    border: 1px solid #3498db; /* Azul */
+    border-radius: 4px;
+    margin-right: 5px; /* Separación entre botones */
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el ratón */
+    border-color: #2980b9; /* Azul más oscuro al pasar el ratón */
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #e74c3c; /* Rojo para la página actual */
+    border-color: #e74c3c; /* Rojo para la página actual */
+    color: #fff;
+}
+
